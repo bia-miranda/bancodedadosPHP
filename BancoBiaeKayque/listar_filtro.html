@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir dados</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <form method="post" action="listar_filtro.php">
+        <h1>Pesquisa de de registros</h1>
+
+        <h3>Digite o nome:</h3>
+        <input type="text" name="txtcriterio" id="txtcriterio">
+
+        <hr>
+        <div class="buttons">
+            <input type="submit" id="btninsere" name="btninsere" value="Pesquisar"/>
+        
+            <input type="reset" value="Limpar" onclick="location.href='listar_filtro.html'"/>
+        
+            <input type="button"  value="Menu" onclick="location.href='index.html'"/>
+        </div>
+
+    </form>
+
+    
+</body>
+</html>

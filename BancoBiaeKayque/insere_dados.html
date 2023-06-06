@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form method="post" action="insere_dados.php">
+        <h1>Inclusão de registros</h1>
+
+        <h3>Insira seu nome</h3>
+        <input type="text" placeholder="Preencha o nome completo" name="txtnome" id="txtnome">
+
+
+        <hr>
+        <h3>Insira sua senha</h3>
+        <input type="password" placeholder="Senha" name="txtsenha" id="txtsenha">
+
+
+        <hr>
+        <h3>Selecione o sexo</h3>
+        <div class="radio">
+        <input type="radio"  id="txtsexo" name="txtsexo" value="M">Masculino
+        <input type="radio" id="txtsexo" name="txtsexo" value="F">Feminino
+        </div> 
+
+        <hr>
+        <div class="buttons">
+            <input type="submit" id="btninsere" name="btninsere" value="Inserir"/>
+        
+            <input type="button" value="Limpar" onclick="location.href='insere_dados.html'"/>
+        
+            <input type="button"  value="Menu" onclick="location.href='index.html'"/>
+        </div>
+
+    </form>
+
+    
+</body>
+</html>
